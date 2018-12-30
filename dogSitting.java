@@ -45,15 +45,15 @@ public class dogSitting
          {
             dailyCost = (numDogs - 2) * 3.50 + 35.00;
          
-         totalCost = dailyCost * numDays;
+            totalCost = dailyCost * numDays;
          
-         System.out.print ("Dog Sitting Invoice\n" +
-                           "-----------------------\n" +
-                           "Number Dogs:  " + numDogs + "\n" +
-                           "Number Days:  " + numDays + "\n" +
-                           "Daily Cost:   " + formatter.format(dailyCost) + "\n" +
-                           "\n" +
-                           "Total Cost:   " + formatter.format(totalCost) + "\n");
+            System.out.print ("Dog Sitting Invoice\n" +
+                              "-----------------------\n" +
+                              "Number Dogs:  " + numDogs + "\n" +
+                              "Number Days:  " + numDays + "\n" +
+                              "Daily Cost:   " + formatter.format(dailyCost) + "\n" +
+                              "\n" +
+                              "Total Cost:   " + formatter.format(totalCost) + "\n");
          }               
       else if ( choice == 2)
       {
