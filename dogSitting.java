@@ -9,7 +9,6 @@ public class dogSitting
       DecimalFormat formatter = new DecimalFormat("$#0.00");
       
       String custName;
-      
       int numDogs = 0;
       int numDays = 0;
       int choice;
